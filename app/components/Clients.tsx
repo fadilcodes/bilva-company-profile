@@ -2,11 +2,14 @@
 
 export function Clients() {
   const clients = [
-    { name: 'Shopee', logo: 'S' },
-    { name: 'Summarecon Mall', logo: 'SM' },
-    { name: 'Grab', logo: 'G' },
-    { name: 'Sahid', logo: 'SH' },
-    { name: 'Mulia Group', logo: 'MG' }
+    { name: 'Shopee', logo: <img src="/client/shopee.png" alt="Shopee" /> },
+    { name: 'Summarecon Mall', logo: <img src="/client/summarecon-mall.png" alt="Summarecon Mall" /> },
+    { name: 'Grab', logo: <img src="/client/grab.png" alt="Grab" /> },
+    { name: 'Solo Paragon', logo: <img src="/client/solo-paragon.jpeg" alt="solo-paragon" /> },
+    { name: 'Mulia Group', logo: <img src="/client/mulia-group.jpeg" alt="Mulia Group" /> },
+    { name: 'Sopo del', logo: <img src="/client/sopo-del.jpeg" alt="Sopo del" /> },
+    { name: 'Jogja Walk', logo: <img src="/client/jogja-walk.jpeg" alt="Jogja Walk" /> },
+    { name: 'First Jakarta Internasional', logo: <img src="/client/first-jakarta-internasional.jpeg" alt="First Jakarta Internasional" /> },
   ];
 
   return (
@@ -26,8 +29,8 @@ export function Clients() {
               className="bg-white p-8 rounded-3xl shadow-md hover:shadow-lg transition-all duration-300 flex items-center justify-center group"
             >
               <div className="text-center">
-                <div className="w-16 h-16 mx-auto bg-[#c9972f]/10 rounded-2xl flex items-center justify-center mb-3 group-hover:bg-[#c9972f] transition-all duration-300">
-                  <span className="text-2xl font-bold text-[#c9972f] group-hover:text-white transition-all duration-300">
+                <div className="w-16 h-16 mx-auto rounded-2xl flex items-center justify-center mb-3  transition-all duration-300">
+                  <span className="text-2xl font-bold  group-hover:text-white transition-all duration-300">
                     {client.logo}
                   </span>
                 </div>

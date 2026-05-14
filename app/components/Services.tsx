@@ -27,27 +27,27 @@ export function Services() {
 
   const projectImages = [
     {
-      src: 'https://images.unsplash.com/photo-1610459716431-e07abcf74230?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600',
+      src: '/proyek/meeting-room-1.jpeg',
       alt: 'Construction progress'
     },
     {
-      src: 'https://images.unsplash.com/photo-1673978484281-e9370ac3b81c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600',
+      src: '/proyek/work-space.jpeg',
       alt: 'Interior renovation'
     },
     {
-      src: 'https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600',
+      src: '/proyek/red-pipeline.jpeg',
       alt: 'MEP piping installation'
     },
     {
-      src: 'https://images.unsplash.com/photo-1704040686413-2c607dbd2f06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600',
+      src: '/proyek/pipeline.jpeg',
       alt: 'Finished interior space'
     },
     {
-      src: 'https://images.unsplash.com/photo-1693639056346-49cd9529378a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600',
+      src: '/proyek/rest-room.jpeg',
       alt: 'Building construction'
     },
     {
-      src: 'https://images.unsplash.com/photo-1650551182991-b07558247564?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600',
+      src: '/proyek/front-room.jpeg',
       alt: 'Mechanical systems installation'
     }
   ];
@@ -108,7 +108,7 @@ export function Services() {
                   alt={image.alt}
                   className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
             ))}
           </div>

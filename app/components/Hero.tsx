@@ -19,12 +19,16 @@ export function Hero() {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-[#c9972f] text-white px-8 py-4 rounded-3xl hover:bg-[#b38629] transition-all duration-300 shadow-lg hover:shadow-xl">
+              <a href="#layanan">
+              <button className="bg-[#c9972f] text-white px-8 py-4 rounded-3xl hover:bg-[#b38629] transition-all duration-300 shadow-lg hover:shadow-xl cursor-pointer">
                 Layanan Kami
               </button>
-              <button className="border-2 border-[#c9972f] text-[#c9972f] px-8 py-4 rounded-3xl hover:bg-[#c9972f] hover:text-white transition-all duration-300">
-                Lihat Portofolio
+              </a>
+              <a href="#portofolio">
+              <button className="border-2 border-[#00a244] text-[#00a244] px-8 py-4 rounded-3xl hover:bg-[#14a24f] hover:text-white transition-all duration-300 cursor-pointer">
+                Konsultasi via Whatsapp
               </button>
+              </a>
             </div>
           </div>
 
@@ -33,25 +37,25 @@ export function Hero() {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1770625296856-cb865be093da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+                  src="/proyek/meeting-room-1.jpeg"
                   alt="Modern construction site"
                   className="w-full h-64 object-cover rounded-3xl shadow-lg"
                 />
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1646987916641-1f3c8992daa2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
-                  alt="Luxury interior design"
+                  src="/proyek/work-space.jpeg"
+                  alt="work-space"
                   className="w-full h-48 object-cover rounded-3xl shadow-lg"
                 />
               </div>
               <div className="space-y-4 pt-8">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1704040686413-2c607dbd2f06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
-                  alt="Modern living room interior"
+                  src="/proyek/red-pipeline.jpeg"
+                  alt="red-pipeline"
                   className="w-full h-48 object-cover rounded-3xl shadow-lg"
                 />
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1769721209842-e46c60e7fbf9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
-                  alt="Building construction crane"
+                  src="/proyek/rest-room.jpeg"
+                  alt="rest-room"
                   className="w-full h-64 object-cover rounded-3xl shadow-lg"
                 />
               </div>

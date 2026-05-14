@@ -7,7 +7,7 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-xl font-bold text-gray-900">Bilva Jaya Interindo</span>
+            <img src="/logo.png" alt="Bilva Jaya Interindo Logo" className="w-80 mr-3" />
           </div>
 
           {/* Navigation */}
@@ -19,7 +19,7 @@ export function Header() {
               Layanan
             </a>
             <a href="#portofolio" className="text-gray-700 hover:text-[#c9972f] transition-colors">
-              Portofolio
+              Klien
             </a>
             <a href="#kontak" className="text-gray-700 hover:text-[#c9972f] transition-colors">
               Kontak
@@ -27,9 +27,11 @@ export function Header() {
           </nav>
 
           {/* CTA Button */}
-          <button className="bg-[#c9972f] text-white px-6 py-3 rounded-full hover:bg-[#b38629] transition-all duration-300 shadow-md hover:shadow-lg">
+          <a href="https://wa.me/6281285938973" target="_blank" rel="noopener noreferrer">
+          <button className="bg-[#c9972f] text-white px-6 py-3 rounded-full hover:bg-[#b38629] transition-all duration-300 shadow-md hover:shadow-lg cursor-pointer">
             Hubungi Kami
           </button>
+          </a>
         </div>
       </div>
     </header>

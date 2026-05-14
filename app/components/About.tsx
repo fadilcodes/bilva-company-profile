@@ -31,7 +31,7 @@ export function About() {
             {/* Right Column - Image */}
             <div>
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1774600166818-e554a4d4c376?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                src="kami.jpg"
                 alt="Professional construction team reviewing blueprints"
                 className="w-full h-96 object-cover rounded-3xl shadow-xl"
               />

@@ -10,9 +10,9 @@ export function Footer() {
           {/* Left Side - Company Info */}
           <div className="space-y-6">
             <div>
-              <h3 className="text-2xl font-bold mb-3">PT Bilva Jaya Interindo</h3>
+              <img src="/logo-white.png" alt="Bilva Jaya Interindo Logo" className="w-100 mr-3" />
               <p className="text-gray-400 leading-relaxed">
-                Membangun ruang berkualitas dengan presisi dan estetika untuk masa depan yang lebih baik.
+                Membangun ruang berkualitas dengan presisi dan estetika untuk masa depan yang lebih baik. Perusahaan jasa konstruksi dan kontraktor renovasi yang berdedikasi untuk memberikan solusi pembangunan terintegrasi.
               </p>
             </div>
           </div>
@@ -28,14 +28,14 @@ export function Footer() {
                 </div>
                 <div>
                   <p className="text-gray-400 text-sm mb-1">Telepon</p>
-                  <a href="tel:+6281285938973" className="text-white hover:text-[#c9972f] transition-colors">
+                  <a href="https://wa.me/6281285938973" target='blank' className="text-white hover:text-[#c9972f] transition-colors">
                     +62 812-8593-8973
                   </a>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#c9972f]/20 rounded-2xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-[#c9972f]/20 rounded-2xl flex items-center justify-center shrink-0">
                   <Mail className="w-5 h-5 text-[#c9972f]" />
                 </div>
                 <div>
@@ -53,8 +53,7 @@ export function Footer() {
                 <div>
                   <p className="text-gray-400 text-sm mb-1">Alamat</p>
                   <p className="text-white">
-                    Springhill Yume Lagoon<br />
-                    Kabupaten Tangerang, Banten
+                    Springhill Yume Lagoon. <br /> Blok B3 No 16 . Jl. Raya Cisauk Lapan, Suradita, Kec. Cisauk, Kabupaten Tangerang, Banten 15343
                   </p>
                 </div>
               </div>
