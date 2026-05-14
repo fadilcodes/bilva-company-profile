@@ -1,3 +1,5 @@
+"use client"
+
 export function Clients() {
   const clients = [
     { name: 'Shopee', logo: 'S' },

@@ -1,3 +1,5 @@
+"use client"
+
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function About() {
